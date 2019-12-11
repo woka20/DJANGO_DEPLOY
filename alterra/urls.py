@@ -9,6 +9,7 @@ urlpatterns=[
     path('mentor/',  views.mentor, name="mentor"),
     path('about/', views.author, name="about"),
     path('submit-form/', views.form, name="submit"),
-    path('submit', views.submit, name="todb")
+    path('submit', views.submit, name="todb"),
+    path('blog/<int:blog_id>', views.detail, name="detail")
 
 ]

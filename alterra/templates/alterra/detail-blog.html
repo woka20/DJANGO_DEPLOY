@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <p>Do you want post a new blog article? <a href="{% url 'submit' %}">Click Here</a></p>
+    <div class="artikel_satu">
+        <img src="{{fulls.gambar}}">
+        <p>{{fulls.tanggal}}</p>
+        <h2>{{fulls.judul}}</h2>
+        <p>{{fulls.konten}}</p>
+ 
+        </br>
+    </div>
+{% endblock %}

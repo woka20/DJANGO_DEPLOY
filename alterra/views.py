@@ -25,6 +25,10 @@ def author(request):
 def form(request):
     return render(request, 'alterra/input-blog.html')
 
+def detail(request, blog_id):
+    full=Blog.objects.get(id=blog_id)
+    return render(request, 'alterra/detail-blog.html', {'fulls': full})
+
 
 def submit(request):
     Posting=Blog(

@@ -8,11 +8,13 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header-nav {
     display: table;
     margin-left: auto;
+    
 }
 .header-nav__list {
     margin: 0;
@@ -104,22 +106,69 @@ header {
 
 }
 
+#mentee_judul{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#nama_mentee{
+    font-size: 20px;
+    font-style: bold;
+}
+#isi_mentee{
+    font-size: 18px;
+
+}
+
 
 .mentee_dua {
     display: inline-table;
     position: absolute;
 }
 
+/* MENTOR */
+
+#mentor_judul{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#jabatan_mentor{
+    font-size: 22px;
+    font-style: bold;
+}
+
+#quote_mentor{
+    size: 20px;
+}
 
 /* INPUT */
 
 form{
     padding: 80px;
-    margin-left: 250px;
+    margin-left: 390px;
 }
 
 .h3-form{
-    padding:90px;
+    padding-top:5px;
+    padding-left: 70px;
+
+}
+
+/* AUTHOR */
+
+#author{
+    margin-left: 200px;
+}
+#gambar_author{
+    padding-top: 30px;
+    margin-left: 70px;
+
+}
+
+#peta{
+    margin-left: 100px;
 }
 
 /* FOOTER */
